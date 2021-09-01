@@ -1,0 +1,51 @@
+h5{
+    color:rgb(97, 204, 207);
+}
+
+h4{
+    color: rgb(96, 204, 207);
+}
+
+
+#back{
+    text-align: right;
+}
+
+.col{
+    border-radius: 10px;
+   
+}
+
+.mx-2{
+    background-color: lightblue;
+
+    width:1000px;
+    
+    
+}
+
+
+.my-4{
+    color:black;
+}
+
+.my-5{
+    padding-left: 2px ;
+}
+
+.btn{
+    margin-left: 450px;
+    margin-top: 20px;
+}
+
+
+img{
+    border-radius: 10px;
+   
+}
+
+/* .card{
+border-radius: 10px;
+
+
+} */
