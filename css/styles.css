@@ -11,17 +11,17 @@ h4{
     text-align: right;
 }
 
-.col{
-    border-radius: 10px;
-   
-}
+
 
 .mx-2{
-    background-color: lightblue;
+    background-color: lightblue;  
+    
+}
 
-    width:1000px;
-    
-    
+.row{
+    display: flex;
+  
+  flex-wrap: wrap;
 }
 
 
@@ -34,18 +34,63 @@ h4{
 }
 
 .btn{
-    margin-left: 450px;
-    margin-top: 20px;
+    /* margin-left: 450px; */
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 
 img{
+    flex-basis: 25%;
     border-radius: 10px;
-   
+    
 }
 
-/* .card{
+.card{
 border-radius: 10px;
+flex-wrap: wrap;
+} 
 
 
+.form-label{
+    float: left;
+    width: 100%;
+    display: block;
+}
+
+.form-control
+{
+    float: left;
+    width: 100%;
+    display: block;
+}
+
+/* .form-select{
+    float: left;
+    width: 100%;
 } */
+
+*{
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+label, select, textarea{
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    .form-labe, .form-control, .form-select, .card, input[type=submit]{
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .form-labe, .form-control, .form-select, input[type=submit]{
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  
